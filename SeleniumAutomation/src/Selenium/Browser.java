@@ -24,6 +24,8 @@ public class Browser {
 		driver.manage().deleteAllCookies();
 		driver.get("https://www.google.com");
 		
+        System.out.println("Hai");
+
 	TakesScreenshot TS=(TakesScreenshot)driver;
     File source=TS.getScreenshotAs(OutputType.FILE);
     FileUtils.copyFile(source,new File("./Screenshots/Google.png"));
