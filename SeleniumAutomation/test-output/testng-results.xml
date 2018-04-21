@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="108260" started-at="2018-04-08T16:45:23Z" finished-at="2018-04-08T16:47:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="108260" started-at="2018-04-08T16:45:23Z" finished-at="2018-04-08T16:47:11Z">
+      <class name="Selenium.Datadriven">
+        <test-method status="PASS" signature="datadriven(java.lang.String, java.lang.String)[pri:0, instance:Selenium.Datadriven@4b1c1ea0]" name="datadriven" duration-ms="39236" started-at="2018-04-08T16:45:23Z" data-provider="Testdata" finished-at="2018-04-08T16:46:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sydulu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Babu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datadriven -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Selenium.Datadriven@4b1c1ea0]" name="teardown" is-config="true" duration-ms="1387" started-at="2018-04-08T16:46:02Z" finished-at="2018-04-08T16:46:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="datadriven(java.lang.String, java.lang.String)[pri:0, instance:Selenium.Datadriven@4b1c1ea0]" name="datadriven" duration-ms="66714" started-at="2018-04-08T16:46:04Z" data-provider="Testdata" finished-at="2018-04-08T16:47:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8008830532]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sydulubabukadama]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datadriven -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Selenium.Datadriven@4b1c1ea0]" name="teardown" is-config="true" duration-ms="869" started-at="2018-04-08T16:47:11Z" finished-at="2018-04-08T16:47:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Selenium.Datadriven -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
